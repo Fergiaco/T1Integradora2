@@ -14,6 +14,7 @@ temposPin=[]
 
 for x in range(50):
     tIni=time.time()
+    #trocar path
     os.system('ipfs add C:\\Users\\ferna\\Downloads\\'+arquivo)
     temposAdd.append(time.time()-tIni)
     
